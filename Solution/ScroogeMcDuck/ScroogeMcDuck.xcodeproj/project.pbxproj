@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C10C34D2AFE58C3000C57A3 /* TaxCalculator in Resources */ = {isa = PBXBuildFile; fileRef = 1C10C34C2AFE58C3000C57A3 /* TaxCalculator */; };
+		1C10C34F2AFE58D3000C57A3 /* TaxCalculator in Frameworks */ = {isa = PBXBuildFile; productRef = 1C10C34E2AFE58D3000C57A3 /* TaxCalculator */; };
+		1C4C47942AFE5B1500A0AD3A /* SalaryCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C47932AFE5B1500A0AD3A /* SalaryCalculatorViewModel.swift */; };
+		1C4C47982AFED07700A0AD3A /* SodraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C47972AFED07700A0AD3A /* SodraService.swift */; };
+		426EA5AD2542F059003FFFE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426EA5AC2542F059003FFFE0 /* AppDelegate.swift */; };
+		426EA5AF2542F059003FFFE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426EA5AE2542F059003FFFE0 /* SceneDelegate.swift */; };
+		426EA5B12542F059003FFFE0 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426EA5B02542F059003FFFE0 /* CalculatorViewController.swift */; };
+		426EA5B42542F059003FFFE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426EA5B22542F059003FFFE0 /* Main.storyboard */; };
+		426EA5B62542F060003FFFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426EA5B52542F060003FFFE0 /* Assets.xcassets */; };
+		426EA5B92542F060003FFFE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426EA5B72542F060003FFFE0 /* LaunchScreen.storyboard */; };
+		426EA5C42542F061003FFFE0 /* SalaryCalculatorViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426EA5C32542F061003FFFE0 /* SalaryCalculatorViewModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		426EA5C02542F061003FFFE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426EA5A12542F058003FFFE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426EA5A82542F058003FFFE0;
+			remoteInfo = ScroogeMcDuck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C10C34C2AFE58C3000C57A3 /* TaxCalculator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TaxCalculator; path = ../../TaxCalculator; sourceTree = "<group>"; };
+		1C4C47932AFE5B1500A0AD3A /* SalaryCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryCalculatorViewModel.swift; sourceTree = "<group>"; };
+		1C4C47972AFED07700A0AD3A /* SodraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodraService.swift; sourceTree = "<group>"; };
+		426EA5A92542F058003FFFE0 /* ScroogeMcDuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScroogeMcDuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		426EA5AC2542F059003FFFE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		426EA5AE2542F059003FFFE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		426EA5B02542F059003FFFE0 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		426EA5B32542F059003FFFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		426EA5B52542F060003FFFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		426EA5B82542F060003FFFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		426EA5BA2542F060003FFFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426EA5BF2542F061003FFFE0 /* ScroogeMcDuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScroogeMcDuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426EA5C32542F061003FFFE0 /* SalaryCalculatorViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryCalculatorViewModelTests.swift; sourceTree = "<group>"; };
+		426EA5C52542F061003FFFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		426EA5A62542F058003FFFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C10C34F2AFE58D3000C57A3 /* TaxCalculator in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426EA5BC2542F061003FFFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C10C3462AFD39DC000C57A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C10C3502AFE5A5E000C57A3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				426EA5AC2542F059003FFFE0 /* AppDelegate.swift */,
+				426EA5AE2542F059003FFFE0 /* SceneDelegate.swift */,
+				426EA5B22542F059003FFFE0 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1C4C47912AFE5A9F00A0AD3A /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				1C4C47922AFE5AB800A0AD3A /* Salary calculator */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		1C4C47922AFE5AB800A0AD3A /* Salary calculator */ = {
+			isa = PBXGroup;
+			children = (
+				1C4C47932AFE5B1500A0AD3A /* SalaryCalculatorViewModel.swift */,
+				426EA5B02542F059003FFFE0 /* CalculatorViewController.swift */,
+			);
+			path = "Salary calculator";
+			sourceTree = "<group>";
+		};
+		1C4C47952AFED00300A0AD3A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1C4C47962AFED05F00A0AD3A /* Service */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1C4C47962AFED05F00A0AD3A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1C4C47972AFED07700A0AD3A /* SodraService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		426EA5A02542F058003FFFE0 = {
+			isa = PBXGroup;
+			children = (
+				426EA5AB2542F059003FFFE0 /* ScroogeMcDuck */,
+				426EA5C22542F061003FFFE0 /* ScroogeMcDuckTests */,
+				426EA5AA2542F058003FFFE0 /* Products */,
+				1C10C3462AFD39DC000C57A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		426EA5AA2542F058003FFFE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				426EA5A92542F058003FFFE0 /* ScroogeMcDuck.app */,
+				426EA5BF2542F061003FFFE0 /* ScroogeMcDuckTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		426EA5AB2542F059003FFFE0 /* ScroogeMcDuck */ = {
+			isa = PBXGroup;
+			children = (
+				1C10C34C2AFE58C3000C57A3 /* TaxCalculator */,
+				1C10C3502AFE5A5E000C57A3 /* Application */,
+				1C4C47952AFED00300A0AD3A /* API */,
+				1C4C47912AFE5A9F00A0AD3A /* Feature */,
+				426EA5B52542F060003FFFE0 /* Assets.xcassets */,
+				426EA5B72542F060003FFFE0 /* LaunchScreen.storyboard */,
+				426EA5BA2542F060003FFFE0 /* Info.plist */,
+			);
+			path = ScroogeMcDuck;
+			sourceTree = "<group>";
+		};
+		426EA5C22542F061003FFFE0 /* ScroogeMcDuckTests */ = {
+			isa = PBXGroup;
+			children = (
+				426EA5C32542F061003FFFE0 /* SalaryCalculatorViewModelTests.swift */,
+				426EA5C52542F061003FFFE0 /* Info.plist */,
+			);
+			path = ScroogeMcDuckTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		426EA5A82542F058003FFFE0 /* ScroogeMcDuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426EA5D32542F061003FFFE0 /* Build configuration list for PBXNativeTarget "ScroogeMcDuck" */;
+			buildPhases = (
+				426EA5A52542F058003FFFE0 /* Sources */,
+				426EA5A62542F058003FFFE0 /* Frameworks */,
+				426EA5A72542F058003FFFE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScroogeMcDuck;
+			packageProductDependencies = (
+				1C10C34E2AFE58D3000C57A3 /* TaxCalculator */,
+			);
+			productName = ScroogeMcDuck;
+			productReference = 426EA5A92542F058003FFFE0 /* ScroogeMcDuck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		426EA5BE2542F061003FFFE0 /* ScroogeMcDuckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426EA5D62542F061003FFFE0 /* Build configuration list for PBXNativeTarget "ScroogeMcDuckTests" */;
+			buildPhases = (
+				426EA5BB2542F061003FFFE0 /* Sources */,
+				426EA5BC2542F061003FFFE0 /* Frameworks */,
+				426EA5BD2542F061003FFFE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426EA5C12542F061003FFFE0 /* PBXTargetDependency */,
+			);
+			name = ScroogeMcDuckTests;
+			productName = ScroogeMcDuckTests;
+			productReference = 426EA5BF2542F061003FFFE0 /* ScroogeMcDuckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		426EA5A12542F058003FFFE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					426EA5A82542F058003FFFE0 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					426EA5BE2542F061003FFFE0 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 426EA5A82542F058003FFFE0;
+					};
+				};
+			};
+			buildConfigurationList = 426EA5A42542F058003FFFE0 /* Build configuration list for PBXProject "ScroogeMcDuck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 426EA5A02542F058003FFFE0;
+			packageReferences = (
+			);
+			productRefGroup = 426EA5AA2542F058003FFFE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				426EA5A82542F058003FFFE0 /* ScroogeMcDuck */,
+				426EA5BE2542F061003FFFE0 /* ScroogeMcDuckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		426EA5A72542F058003FFFE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C10C34D2AFE58C3000C57A3 /* TaxCalculator in Resources */,
+				426EA5B92542F060003FFFE0 /* LaunchScreen.storyboard in Resources */,
+				426EA5B62542F060003FFFE0 /* Assets.xcassets in Resources */,
+				426EA5B42542F059003FFFE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426EA5BD2542F061003FFFE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		426EA5A52542F058003FFFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4C47942AFE5B1500A0AD3A /* SalaryCalculatorViewModel.swift in Sources */,
+				426EA5B12542F059003FFFE0 /* CalculatorViewController.swift in Sources */,
+				426EA5AD2542F059003FFFE0 /* AppDelegate.swift in Sources */,
+				1C4C47982AFED07700A0AD3A /* SodraService.swift in Sources */,
+				426EA5AF2542F059003FFFE0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426EA5BB2542F061003FFFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426EA5C42542F061003FFFE0 /* SalaryCalculatorViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		426EA5C12542F061003FFFE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426EA5A82542F058003FFFE0 /* ScroogeMcDuck */;
+			targetProxy = 426EA5C02542F061003FFFE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		426EA5B22542F059003FFFE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426EA5B32542F059003FFFE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		426EA5B72542F060003FFFE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426EA5B82542F060003FFFE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		426EA5D12542F061003FFFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		426EA5D22542F061003FFFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		426EA5D42542F061003FFFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScroogeMcDuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScroogeMcDuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		426EA5D52542F061003FFFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScroogeMcDuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScroogeMcDuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		426EA5D72542F061003FFFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScroogeMcDuckTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScroogeMcDuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScroogeMcDuck.app/ScroogeMcDuck";
+			};
+			name = Debug;
+		};
+		426EA5D82542F061003FFFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScroogeMcDuckTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScroogeMcDuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScroogeMcDuck.app/ScroogeMcDuck";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426EA5A42542F058003FFFE0 /* Build configuration list for PBXProject "ScroogeMcDuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426EA5D12542F061003FFFE0 /* Debug */,
+				426EA5D22542F061003FFFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426EA5D32542F061003FFFE0 /* Build configuration list for PBXNativeTarget "ScroogeMcDuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426EA5D42542F061003FFFE0 /* Debug */,
+				426EA5D52542F061003FFFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426EA5D62542F061003FFFE0 /* Build configuration list for PBXNativeTarget "ScroogeMcDuckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426EA5D72542F061003FFFE0 /* Debug */,
+				426EA5D82542F061003FFFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C10C34E2AFE58D3000C57A3 /* TaxCalculator */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TaxCalculator;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 426EA5A12542F058003FFFE0 /* Project object */;
+}
